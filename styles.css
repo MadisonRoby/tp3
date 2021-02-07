@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+h1 {
+  font-family: Sigmar One;
+  font-style: bold;
+  color: orange;
+}
+
+h2 {
+  font-style: italic;
+  color: grey;
+}
+
+  li {
+  font-family: Times New Roman;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+#ingredients li span {
+  font-style: italic;
+  color: #999;
+}
+
+#directions li span {
+  font-style: italic;
+  color: #999;
+}
+
+#prep li:nth-child(5) {
+  color: orange;
+}
